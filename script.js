@@ -4,7 +4,7 @@ function buttonClick()
     let partnername=document.getElementById('pname').value.replace(/\s/g,"");;
     let flame=findFlame(yourname,partnername);
     
-    document.getElementById('view').innerHTML=flame[1]+" This is Just for F U N ! ! ! Have a nice time.."
+    document.getElementById('view').innerHTML=flame[1]+" This is Just for F U N ! ! ! Have a nice time..";
 }
 function findFlame(n1,n2)
 {
