@@ -4,7 +4,7 @@ function buttonClick()
     let partnername=document.getElementById('pname').value.replace(/\s/g,"");;
     let flame=findFlame(yourname,partnername);
     
-    document.getElementById('view').innerHTML=flame[1]
+    document.getElementById('view').innerHTML=flame[1]+" This is Just for F U N ! ! ! Have a nice time.."
 }
 function findFlame(n1,n2)
 {
@@ -42,12 +42,12 @@ function FinalLetter(arr1,arr2,copyarr=[...arr1])
 function getFlame(diff)
 {
     const FLAMES={
-        0:['F','Friends'],
-        1:['L','Lover'],
-        2:['A','Affection'],
-        3:['M','Marriage'],
-        4:['E','Enemies'],
-        5:['S','Siblings']
+        0:['F','Friends!'],
+        1:['L','Lover!'],
+        2:['A','Affection!'],
+        3:['M','Marriage!'],
+        4:['E','Enemies!'],
+        5:['S','Siblings!']
 } ;
 let mod_diff=diff%6;
 console.log();
